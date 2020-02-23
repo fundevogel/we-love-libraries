@@ -1,0 +1,5 @@
+.env
+.vscode
+
+libraries/*
+!libraries/index.html
