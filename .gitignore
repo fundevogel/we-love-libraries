@@ -1,5 +1,5 @@
 .env
 .vscode
 
-libraries/*
-!libraries/index.html
+data/*
+!data/index.html

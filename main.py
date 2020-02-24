@@ -56,7 +56,7 @@ if __name__ == "__main__":
         if len(args.states) is not False and state not in args.states:
             continue
 
-        file = 'libraries/' + state + '.json'
+        file = 'data/' + state + '.json'
 
         if os.path.isfile(file) is False:
             with open(file, 'w') as file:
