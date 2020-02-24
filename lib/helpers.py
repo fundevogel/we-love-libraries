@@ -35,7 +35,7 @@ def parse(base_url):
     table = soup.find('h2').find_next_sibling('table')
 
     # Extract library dataset
-    library = extract_data(table)
+    library = extract(table)
 
     return library
 
